@@ -11,6 +11,7 @@
 		3C31D69E2B09136300ED6333 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31D69D2B09136300ED6333 /* ContentView.swift */; };
 		3C31D6A02B09136400ED6333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C31D69F2B09136400ED6333 /* Assets.xcassets */; };
 		3C31D6A32B09136400ED6333 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C31D6A22B09136400ED6333 /* Preview Assets.xcassets */; };
+		3C31D6AB2B095A4C00ED6333 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31D6AA2B095A4C00ED6333 /* ExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3C31D69D2B09136300ED6333 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C31D69F2B09136400ED6333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C31D6A22B09136400ED6333 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C31D6AA2B095A4C00ED6333 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		3C31D69A2B09136300ED6333 /* GuessQuest */ = {
 			isa = PBXGroup;
 			children = (
+				3C31D6A92B095A2C00ED6333 /* Examples */,
 				3C31D69B2B09136300ED6333 /* GuessQuestApp.swift */,
 				3C31D69D2B09136300ED6333 /* ContentView.swift */,
 				3C31D69F2B09136400ED6333 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				3C31D6A22B09136400ED6333 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C31D6A92B095A2C00ED6333 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3C31D6AA2B095A4C00ED6333 /* ExampleView.swift */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +94,8 @@
 			dependencies = (
 			);
 			name = GuessQuest;
+			packageProductDependencies = (
+			);
 			productName = GuessQuest;
 			productReference = 3C31D6982B09136300ED6333 /* GuessQuest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +124,8 @@
 				Base,
 			);
 			mainGroup = 3C31D68F2B09136300ED6333;
+			packageReferences = (
+			);
 			productRefGroup = 3C31D6992B09136300ED6333 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +154,7 @@
 			files = (
 				3C31D69E2B09136300ED6333 /* ContentView.swift in Sources */,
 				3C31D69C2B09136300ED6333 /* GuessQuestApp.swift in Sources */,
+				3C31D6AB2B095A4C00ED6333 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
